@@ -1,5 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
+@extends('components.Layout')
+
+@section('title', 'HTML Roadmap - Chapters')
+
+@section('content')
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,14 +24,8 @@
     <main class="centered-content">
         <h1 class="homepage-title">Welcome to Fur Baby Tips!</h1>
         <p>Your go-to resource for all things fur babies.</p>
-
-        <!-- Username Input Form -->
-        <form action="{{ url('/user') }}" method="GET">
-            <label for="username">Enter your username:</label>
-            <input type="text" name="username" id="username" pattern="[A-Za-z]+" title="Only alphabetic characters are allowed">
-            <br><br>
-            <button type="submit">Submit</button>
-        </form>
+        <button type="explore">Explore</button>
+       
     </main>
 
 </body>

@@ -14,8 +14,8 @@
     <nav class="navbar">
         <ul>
             <li><a href="{{ url('/') }}">Home</a></li>
-            <li><a href="{{ url('/chapters') }}">Chapters</a></li>
-            <li><a href="{{ url('/contact') }}">Contact Us</a></li>
+            <li><a href="{{ url('/about') }}">About Us</a></li>
+            <li><a href="{{ url('/contact') }}">Contact</a></li>
         </ul>
     </nav>
 </header>
@@ -25,7 +25,7 @@
 </main>
 
 <footer class="footer">
-    <p>&copy; 2024 HTML Roadmap. All rights reserved.</p>
+    <p>&copy; 2024 Fur Baby Tips. All rights reserved.</p>
 </footer>
 
 </body>
